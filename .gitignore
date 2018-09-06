@@ -1,5 +1,12 @@
+# Maven build
+target/
+
 # Compiled class file
 *.class
+
+# Intellij IDEA
+.idea
+*.iml
 
 # Log file
 *.log

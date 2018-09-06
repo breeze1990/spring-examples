@@ -1,0 +1,3 @@
+app.name: 'app'
+
+management.endpoints.web.exposure.include: health,info,refresh,metrics,env
