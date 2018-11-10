@@ -25,4 +25,12 @@
             </plugin>
         </plugins>
     </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.example.spring</groupId>
+            <artifactId>spring-validator</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+    </dependencies>
 </project>

@@ -7,7 +7,10 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {
+        "com.example.spring.spring_boot",
+        "com.example.spring.web"
+})
 public class App implements CommandLineRunner {
     private static final Logger LOG = LoggerFactory.getLogger(App.class);
 
